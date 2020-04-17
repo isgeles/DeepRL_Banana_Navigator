@@ -39,6 +39,17 @@ The task is episodic, and in order to solve the environment, your agent must get
     ├── tr_checkpoint_1000it_64_64.pth     # stored weights of trained network (1000 iterations, 2 hidden 64 unit layers)
     └── README.md
 
+### Python Packages
+ - gym
+ - random
+ - torch
+ - numpy
+ - collections
+ - matplotlib
+ 
+**Note:** The Unity environment did not work on Mac OS for Python version 3.7 and higher. Python version 3.6 worked well.
+
+
 ### Downloading the Environment
 
 Download the environment from one of the links below.  
