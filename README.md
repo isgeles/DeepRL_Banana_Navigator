@@ -29,21 +29,15 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
 ### Files in this Repository
-.
-├── checkpoint.pth                     # latest stored weights for trained neural network
-
-├── dqn_agent.py                       # agent to interact and learn from environment
-
-├── model.py                           # neural network model (in Pytorch)
-
-├── Navigation.ipynb                   # main code for training and testing the agent
-
-├── Report.pdf                         # report of the implementation and details of the learning algorithm
-
-├── tr_checkpoint_1000it_64_64.pdf     # stored weights of trained network (1000 iterations, 2 hidden layers with 64 units each)
-
-└── README.md                           
-
+                    
+    .
+    ├── checkpoint.pth                   # latest stored weights for trained neural network
+    ├── dqn_agent.py                   # agent to interact and learn from environment
+    ├── model.py                     # neural network model (in Pytorch)
+    ├── Navigation.ipynb                    # main code for training and testing the agent
+    ├── Report.pdf                   # report of the implementation and details of the learning algorithm
+    ├── tr_checkpoint_1000it_64_64.pdf  # stored weights of trained network (1000 iterations, 2 hidden 64 unit layers)
+    └── README.md
 
 ### Downloading the Environment
 
