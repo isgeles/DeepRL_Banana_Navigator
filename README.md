@@ -46,6 +46,7 @@ The task is episodic, and in order to solve the environment, your agent must get
  - numpy
  - collections
  - matplotlib
+ - unityagents
  
 **Note:** The Unity environment did not work on Mac OS for Python version 3.7 and higher. Python version 3.6 worked well.
 
